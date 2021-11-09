@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="shortcut icon" href="/resources/favicon.ico" type="image/x-icon">
+
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+			crossorigin="anonymous"
+		/>
+
+		<title>Korobot🐶</title>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="container-fluid">
+				<a id="disablethislmao" class="navbar-brand" href="#">
+					<img
+						src="/resources/logo.jpg"
+						alt=""
+						width="30"
+						height="30"
+						class="d-inline-block align-text-top"
+					/>
+					Korobot</a
+				>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNav"
+					aria-controls="navbarNav"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="https://github.com/caceresrene" target="_blank" >GitHub</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#online">Online</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#upcoming">Upcoming</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link disabled">Discord 🔗</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<!-- TODO: CONTAINER  -->
+		<div class="bag">
+			<br>
+			<div class="container w-50 p-3" id="changelog">
+				<p><b> Changelog: </b></p>
+				<ul>
+					<li>Se quitaron las fechas debido a errores con la api <b>(08/11)</b></li>
+				</ul>
+			</div>
+
+			<div class="container bloque-carrusel">
+				<div class="row">
+					<div id="vtubers-en-vivo-texto" class="col">
+						Actualmente hay ... vtubers de Hololive streameando.
+					</div>
+					<div class="col-8">
+						<div id="online" class="container w-75 p-3">
+							<div
+								id="carouselExampleControls"
+								class="carousel slide"
+								data-bs-ride="carousel"
+							>
+								<!-- ! fotos carrusel -->
+								<div id="vtubers-en-vivo" class="carousel-inner carousel-fade">
+									<!-- <div class="carousel-item active">
+									<img src="resources/test.png" class="d-block w-100" alt="..." />
+									<div class="carousel-caption d-none d-md-block">
+										<h5>First slide label</h5>
+										<p>
+											Some representative placeholder content for the first slide.
+										</p>
+									</div>
+								</div>
+			
+								<div class="carousel-item">
+									<img src="resources/test1.png" class="d-block w-100" alt="..." />
+									<div class="carousel-caption d-none d-md-block">
+										<h5>First slide label</h5>
+										<p>
+											Some representative placeholder content for the first slide.
+										</p>
+									</div>
+								</div> -->
+								</div>
+	
+								<button
+									class="carousel-control-prev"
+									type="button"
+									data-bs-target="#carouselExampleControls"
+									data-bs-slide="prev"
+								>
+									<span
+										class="carousel-control-prev-icon"
+										aria-hidden="true"
+									></span>
+									<span class="visually-hidden">Previous</span>
+								</button>
+								<button
+									class="carousel-control-next"
+									type="button"
+									data-bs-target="#carouselExampleControls"
+									data-bs-slide="next"
+								>
+									<span
+										class="carousel-control-next-icon"
+										aria-hidden="true"
+									></span>
+									<span class="visually-hidden">Next</span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			
+	
+			<div class="container">
+				<div class="row">
+					<div id="vtubers-upcoming-texto" class="col">
+						Comenzaran a streamear proximamente <b>...</b> vtubers de Hololive ★
+						hoy (hora Chile).
+					</div>
+					<div class="col-8">
+						<div id="upcoming" class="container w-75 p-3">
+							<div
+								id="carouselUpcomingControls"
+								class="carousel slide"
+								data-bs-ride="carousel"
+							>
+								<!-- ! fotos carrusel -->
+								<div id="vtubers-upcoming" class="carousel-inner carousel-fade">
+									<!-- <div class="carousel-item active">
+									<img src="resources/test.png" class="d-block w-100" alt="..." />
+									<div class="carousel-caption d-none d-md-block">
+										<h5>First slide label</h5>
+										<p>
+											Some representative placeholder content for the first slide.
+										</p>
+									</div>
+								</div>
+			
+								<div class="carousel-item">
+									<img src="resources/test1.png" class="d-block w-100" alt="..." />
+									<div class="carousel-caption d-none d-md-block">
+										<h5>First slide label</h5>
+										<p>
+											Some representative placeholder content for the first slide.
+										</p>
+									</div>
+								</div> -->
+								</div>
+	
+								<button
+									class="carousel-control-prev"
+									type="button"
+									data-bs-target="#carouselUpcomingControls"
+									data-bs-slide="prev"
+								>
+									<span
+										class="carousel-control-prev-icon"
+										aria-hidden="true"
+									></span>
+									<span class="visually-hidden">Previous</span>
+								</button>
+								<button
+									class="carousel-control-next"
+									type="button"
+									data-bs-target="#carouselUpcomingControls"
+									data-bs-slide="next"
+								>
+									<span
+										class="carousel-control-next-icon"
+										aria-hidden="true"
+									></span>
+									<span class="visually-hidden">Next</span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="app.js"></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>

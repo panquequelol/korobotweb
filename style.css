@@ -1,0 +1,46 @@
+.bag {
+	background-color: #2C2F33;
+}
+
+.link-carrusel {
+	color: lightblue;
+	text-shadow: 2px 2px blue;
+	font-size: 1em;
+	text-decoration: none;
+}
+
+.link-carrusel:hover{
+	background-color: cornflowerblue;
+	opacity: .7;
+	color: lightblue;
+	text-decoration: underline;
+}
+
+.bloque-carrusel{
+	padding-top: 2em;
+}
+
+#vtubers-en-vivo-texto, #vtubers-upcoming-texto {
+	text-align: center;
+	padding: 25% 0;
+	font-size: larger;
+	color: white;
+}
+
+#disablethislmao{
+	pointer-events: none
+}
+
+#changelog{
+	padding: 1.3em 0px;
+	text-align: center;
+	color: white;
+	background-color: #23272A;
+	/* padding: 25px 50px; */
+	/* width: 40%; */
+	border-radius: 0.6em;
+
+}
+#changelog li{
+	list-style-type: none;
+}
